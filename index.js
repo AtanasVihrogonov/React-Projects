@@ -1,13 +1,13 @@
 const data = [
   {
     id: "01",
-    projectName: "#",
-    url: "www.avihrogonov.co.uk"
+    projectName: "Seasons",
+    url: "#"
   },
   {
     id: "02",
-    projectName: "#",
-    url: "www.avihrogonov.co.uk"
+    projectName: "",
+    url: "#"
   },
 ]
 
