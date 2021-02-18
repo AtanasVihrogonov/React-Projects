@@ -23,8 +23,6 @@ const getSeason = (lat, month) => {
 const SeasonDisplay = (props) => {
   const season = getSeason(props.lat, new Date().getMonth());
   const { text, iconName } = seasonConfig[season];
-  // const text =season === 'winter' ? 'Burr, it is chilly' : "Let's hit the beach!";
-  // const icon = season === 'winter' ? 'snowflake' : 'sun';
 
   return (
     <div className={`season-display ${season}`}>
@@ -36,3 +34,4 @@ const SeasonDisplay = (props) => {
 };
 
 export default SeasonDisplay;
+
