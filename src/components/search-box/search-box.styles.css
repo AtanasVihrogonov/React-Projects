@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&display=swap');
+.search {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 150px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
