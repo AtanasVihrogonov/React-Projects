@@ -11,3 +11,21 @@
 .Pokecard-data {
   font-size: 80%;
 }
+
+.Pokecard-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-color: #eceff1;
+  margin-bottom: 10px;
+}
+
+.Pokecard img {
+  transition: all ease 500ms;
+}
+
+.Pokecard img:hover {
+  transform: scale(1.25);
+  opacity: 0.8;
+}
