@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
+import Die from './Die'
 import './App.css';
-import Pokegame from './Pokegame';
 
 function App() {
   return (
     <div className='App'>
-      <Pokegame />
+      {/* <Rolldice /> */}
+      <Die />
     </div>
   );
 }
